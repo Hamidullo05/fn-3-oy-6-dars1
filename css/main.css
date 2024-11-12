@@ -1,0 +1,203 @@
+@import url(../scss/_font.scss);
+@import url(../scss/_normalize.scss);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dostavchik {
+  display: flex;
+  margin-top: 109px;
+  align-items: center;
+  margin-bottom: 67px;
+  gap: 80px;
+}
+.dostavchik .dos_text h1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 40px;
+}
+.dostavchik .dos_text .doc_info {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6B6B6C;
+  margin-bottom: 40px;
+}
+.dostavchik .dos_text h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #363738;
+}
+
+.poisk {
+  display: flex;
+  padding-top: 40px;
+  padding-left: 80px;
+  gap: 220px;
+  padding-bottom: 56px;
+  border-radius: 20px;
+ 
+}
+.poisk1 {
+  padding: 10px;
+  box-shadow: 1px 1px white, -0em 0 .6em olive;
+}
+.poisk .poisk-img {
+  width: 92px;
+  height: 92px;
+  background-color: #E9E9EC;
+  border-radius: 50%;
+  text-align: center;
+  padding: 21px;
+  margin-bottom: 24px;
+}
+.poisk h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 16px;
+}
+.poisk .poisk-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6B6B6C;
+}
+
+.lorem {
+  display: flex;
+  gap: 300px;
+  margin-top: 72.5px;
+}
+
+.ipsum {
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.ipsum .bloc {
+  width: 80px;
+  height: 80px;
+  background-color: #E9E9EC;
+  border-radius: 50%;
+  padding: 14px 18px;
+}
+.ipsum h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 16px;
+}
+.ipsum .info {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6B6B6C;
+}/*# sourceMappingURL=main.css.map */
+@media screen and (max-width:1200px) {
+  
+  .container {
+    max-width: 87%;
+  }
+  .dostavchik {
+    gap: 32px;
+  }
+  .dostavchik img {
+    width: 550px;
+  }
+  .poisk {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 8px;
+    gap: 150px;
+    
+    padding-bottom: 56px;
+    border-radius: 20px;
+  }
+  
+}
+@media screen and (max-width: 992px) {
+  
+  .dostavchik img {
+    width: 400px;
+  }
+  .dostavchik .dos_text h1 {
+    font-size: 40px;
+    font-weight: 600;
+ 
+ 
+  }
+  .dostavchik .dos_text .doc_info {
+    font-size: 12px;
+    font-weight: 400;
+   
+    margin-bottom: 0px;
+  }
+  .poisk {
+    gap: 50px;
+  }
+  .lorem {
+    gap: 50px;
+  }
+}
+@media screen and (max-width:768px) {
+ 
+ 
+  .dostavchik {
+  flex-direction: column;
+    
+  text-align: center;
+  
+  }
+  .dostavchik img {
+    
+   width: 100%;
+   
+   height: 314px;
+  }
+  .poisk {
+    flex-direction: column;
+    
+  }
+  .poisk1 {
+    display: flex;
+    align-items: center;
+   
+    gap: 32px ;
+    
+    
+    
+  }
+  .poisk h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #363738;
+    margin-bottom: 10px;
+  }
+  .lorem {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 50px;
+ 
+    
+
+  }
+  
+}
+@media screen and (max-width:576px) {
+  
+  .poisk1 {
+    gap: 10px;
+  }
+  .lorem {
+    padding-left: 0;
+    gap: 5px;
+  }
+}
