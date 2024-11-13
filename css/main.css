@@ -44,11 +44,11 @@
   gap: 220px;
   padding-bottom: 56px;
   border-radius: 20px;
- 
+  box-shadow: 1px 1px white, -0em 0 .6em olive;
 }
 .poisk1 {
   padding: 10px;
-  box-shadow: 1px 1px white, -0em 0 .6em olive;
+  
 }
 .poisk .poisk-img {
   width: 92px;
